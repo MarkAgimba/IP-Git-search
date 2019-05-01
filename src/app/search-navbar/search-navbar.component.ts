@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GitsearchService } from './../github-service/github.service';
+import { GitsearchService } from './../gitservice/github.service';
 
 @Component({
   selector: 'app-search-navbar',

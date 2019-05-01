@@ -1,6 +1,6 @@
 <div class="container-fluid bg-dark">
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-inverse pull-xs-right">
+    <nav class="navbar navbar-expand-lg navbar-info bg-dark bg-inverse pull-lg-left">
       <a class="navbar-brand" href="#"><b>HOME</b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
       <div class="collapse navbar-collapse text-right " id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="https://github.com/MarkAgimba" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>My Github</a>
+            <a class="nav-link" href="https://github.com/MarkAgimba" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>GITHUB PROFILE</a>
           </li>
         </ul>
 
@@ -23,7 +23,7 @@
 <div class="jumbotron">
   <form class="text-center">
     <label for="search" class="sr-only">Search by Name:</label>
-    <input type="text" class="form-group mx-sm-3 mb-2" placeholder="Enter github username" [(ngModel)]="username"
+    <input type="text" class="form-group mx-sm-3 mb-2" placeholder="Github username" [(ngModel)]="username"
       name="username" (keyup)="findProfile()">
     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" (keyup)="findProfile()">Search</button>
   </form>
@@ -71,7 +71,7 @@
 
               <div class="panel panel-default">
                 <div class="panel-heading">
-                  <h3 class="panel-title">Repositories</h3>
+                  <h3 font-size:24px class="panel-title">Repositories</h3>
                 </div>
                 <div class="panel-body" *ngFor="let repo of repos">
                   <p class="clearfix">
