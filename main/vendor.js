@@ -33853,7 +33853,7 @@ var AotSummaryResolver = /** @class */ (function () {
     }
     AotSummaryResolver.prototype.isLibraryFile = function (filePath) {
         // Note: We need to strip the .ngfactory. file path,
-        // so this method also works for generated files
+        // so this method also Employee of  generated files
         // (for which host.isSourceFile will always return false).
         return !this.host.isSourceFile(stripGeneratedFileSuffix(filePath));
     };
