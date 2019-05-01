@@ -557,7 +557,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/ray/Documents/moringa/angular/github-search/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__("./src/styles.css");
 
 
 /***/ })
